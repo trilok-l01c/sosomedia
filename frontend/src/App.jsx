@@ -6,14 +6,15 @@ function App() {
 
     return (
         <>
-            <p>Count: {count}</p>
-            <button
-                onClick={() => {
-                    setCount(count + 1);
-                }}
-            >
-                Hit me!
-            </button>
+            <header>
+                <nav>
+                    <h5>Home</h5>
+                    <h5>Media</h5>
+                    <h5>Freelancing</h5>
+                </nav>
+            </header>
+            <main></main>
+            <footer></footer>
         </>
     );
 }
