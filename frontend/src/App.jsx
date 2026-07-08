@@ -17,18 +17,27 @@ function App() {
                 {/* Selection area for different sites */}
                 <h2>Select platforms</h2>
                 <label for="instagram">
+                    {/* 
+                        [] Add logo of each app
+                        [] Add 
+                     */}
+                    Instagram
                     <input id="instagram" type="checkbox" name="instagram" />
                 </label>
                 <label for="youtube">
+                    YouTube
                     <input id="youtube" type="checkbox" name="youtube" />
                 </label>
                 <label for="twitter/x">
+                    X
                     <input id="twitter/x" type="checkbox" name="twitter/x" />
                 </label>
                 <label for="treads">
+                    Treads
                     <input id="treads" type="checkbox" name="treads" />
                 </label>
                 <label for="linkedin">
+                    LinkedIn
                     <input id="linkedin" type="checkbox" name="linkedin" />
                 </label>
             </main>
